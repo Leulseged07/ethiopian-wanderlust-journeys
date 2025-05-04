@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Ethiopian-inspired colors
+				ethiopia: {
+					red: '#B30C1F', // Ethiopian flag red
+					green: '#007336', // Ethiopian flag green
+					yellow: '#FFC723', // Ethiopian flag yellow
+					coffee: '#6F4E37', // Coffee brown
+					clay: '#A95C37', // Ethiopian clay pottery
+					stone: '#9C9285', // Ancient stone monuments
+					forest: '#254124', // Ethiopian highlands forests
+					natural: '#F5F1E6', // Natural beige/off-white
 				}
 			},
 			borderRadius: {
@@ -84,12 +96,37 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-out': {
+					'0%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					},
+					'100%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					}
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['Playfair Display', 'serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
