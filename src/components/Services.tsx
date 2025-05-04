@@ -25,7 +25,7 @@ const services: ServiceProps[] = [
   },
   {
     title: 'Adventure Expeditions',
-    description: 'Trekking, hiking, and wildlife experiences through Ethiopia's diverse landscapes.',
+    description: 'Trekking, hiking, and wildlife experiences through Ethiopia\'s diverse landscapes.',
     icon: <Tent />,
     color: 'bg-gradient-to-br from-ethiopia-coffee to-ethiopia-coffee/70'
   },
@@ -43,7 +43,7 @@ const services: ServiceProps[] = [
   },
   {
     title: 'Group Tours',
-    description: 'Join like-minded travelers on scheduled departures to Ethiopia's major highlights.',
+    description: 'Join like-minded travelers on scheduled departures to Ethiopia\'s major highlights.',
     icon: <Users />,
     color: 'bg-gradient-to-br from-ethiopia-clay to-ethiopia-clay/70'
   }

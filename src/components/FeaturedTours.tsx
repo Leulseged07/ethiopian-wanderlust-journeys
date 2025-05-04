@@ -26,7 +26,7 @@ const tours: TourProps[] = [
   },
   {
     title: 'Omo Valley Cultural Experience',
-    description: 'Immerse yourself in the diverse tribal cultures of Ethiopia's fascinating Omo Valley region.',
+    description: 'Immerse yourself in the diverse tribal cultures of Ethiopia\'s fascinating Omo Valley region.',
     image: 'https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4221&q=80',
     days: 8,
     maxPeople: 10,
@@ -34,7 +34,7 @@ const tours: TourProps[] = [
   },
   {
     title: 'Danakil Depression Adventure',
-    description: 'Explore one of Earth's most unique landscapes with colorful hot springs and otherworldly salt formations.',
+    description: 'Explore one of Earth\'s most unique landscapes with colorful hot springs and otherworldly salt formations.',
     image: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=5616&q=80',
     days: 5,
     maxPeople: 8,
